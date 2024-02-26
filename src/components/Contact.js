@@ -84,7 +84,7 @@ export default function Contact() {
         text,
       })
       .then((response) => {
-        toast.success("تم الإرسال، شكرا لك");
+        toast.success("تم الإرسال، نرجوا مراجعة الايميل. شكرا لك");
         setName("");
         setEmail("");
         setText("");
