@@ -63,7 +63,7 @@ function sochalMediaButton({ label, link, icon }) {
 }
 
 export default function Contact() {
-  const api = process.env.REACT_APP_API_URL||"http://localhost:3001";
+  const api = process.env.REACT_APP_API_URL||"https://vista-app-api.onrender.com";
   const { colorMode } = useColorMode();
 
   const [name, setName] = useState("");
