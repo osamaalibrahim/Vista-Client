@@ -31,7 +31,7 @@ import Testimonial from "./Testimonial";
 import React, { useState } from "react";
 import axios from "axios";
 import toast, { Toaster } from "react-hot-toast";
-import '@fontsource-variable/tajawal';
+import '@fontsource-variable/Tajawal';
 
 function infoButton({ text, link, icon }) {
   return (
@@ -123,14 +123,14 @@ export default function Contact() {
                 <Box>
                   <Heading
                     fontSize={{ base: "3xl", sm: "4xl", lg: "5xl" }}
-                    fontFamily={"tajawal"}
+                    fontFamily={"Tajawal"}
                   >
                     تواصل معنا
                   </Heading>
                   <Text
                     mt={{ sm: 3, md: 3, lg: 5 }}
                     fontSize={{ base: "xl", sm: "2xl", lg: "3xl" }}
-                    fontFamily={"tajawal"}
+                    fontFamily={"Tajawal"}
                   >
                     الرجاء تعبئة هذا النموذج للتواصل معنا
                   </Text>

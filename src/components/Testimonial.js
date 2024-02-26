@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Heading, Text, Stack } from "@chakra-ui/react";
-import '@fontsource-variable/tajawal';
+import '@fontsource-variable/Tajawal';
 
 function Testimonial(props) {
   const Testimonial = (props) => {
@@ -48,7 +48,7 @@ function Testimonial(props) {
     return (
       <Heading
         fontSize={{ base: "3xl", sm: "4xl", lg: "5xl" }}
-        fontFamily={"tajawal"}
+        fontFamily={"Tajawal"}
       >
         {children}
       </Heading>
@@ -62,7 +62,7 @@ function Testimonial(props) {
       <Text
         textAlign={"center"}
         fontSize={{ base: "xl", sm: "2xl", lg: "3xl" }}
-        fontFamily={"tajawal"}
+        fontFamily={"Tajawal"}
       >
         {children}
       </Text>

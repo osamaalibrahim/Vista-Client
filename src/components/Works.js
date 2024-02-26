@@ -2,7 +2,7 @@ import { Image, Box, Text } from "@chakra-ui/react";
 import React from "react";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import '@fontsource-variable/tajawal';
+import '@fontsource-variable/Tajawal';
 
 import "swiper/css";
 import "swiper/css/pagination";
@@ -32,7 +32,7 @@ export default function Works() {
           textAlign={"center"}
           fontWeight={600}
           pt={10}
-          fontFamily={"tajawal"}
+          fontFamily={"Tajawal"}
         >
           نماذج من أعمالنا
         </Text>

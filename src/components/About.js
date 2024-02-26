@@ -1,5 +1,5 @@
 import { Stack, Text } from "@chakra-ui/react";
-import '@fontsource-variable/tajawal';
+import '@fontsource-variable/Tajawal';
 
 export default function About() {
   return (
@@ -27,7 +27,7 @@ export default function About() {
         maxW={"3xl"}
         fontWeight={600}
         pb={16}
-        fontFamily={"tajawal"}
+        fontFamily={"Tajawal"}
       >
         فريق من الأكفّاء في مجال تقنية المعلومات والإنتاج الإبداعي، نقدم خدماتنا
         لكم على شكل منتجات تقنية متكاملة في مكوناتها، فريدة في مظهرها، متقنة في
