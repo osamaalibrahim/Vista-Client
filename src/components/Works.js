@@ -2,7 +2,7 @@ import { Image, Box, Text } from "@chakra-ui/react";
 import React from "react";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import '@fontsource-variable/Tajawal';
+import '@fontsource/tajawal';
 
 import "swiper/css";
 import "swiper/css/pagination";

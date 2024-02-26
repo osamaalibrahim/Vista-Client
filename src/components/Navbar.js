@@ -18,7 +18,7 @@ import vista_logo from "../assets/vista_logo.png";
 import ThemeToggler from "./ThemeToggler";
 import { Link } from "react-scroll";
 import { motion } from "framer-motion";
-import '@fontsource-variable/Tajawal';
+import '@fontsource/tajawal';
 
 const Navbar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();

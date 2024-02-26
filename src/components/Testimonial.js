@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Heading, Text, Stack } from "@chakra-ui/react";
-import '@fontsource-variable/Tajawal';
+import '@fontsource/tajawal';
 
 function Testimonial(props) {
   const Testimonial = (props) => {

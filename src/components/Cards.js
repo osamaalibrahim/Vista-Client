@@ -7,7 +7,7 @@ import {
   Stack,
   Image,
 } from "@chakra-ui/react";
-import '@fontsource-variable/Tajawal';
+import '@fontsource/tajawal';
 
 export default function Cards(props) {
   return (

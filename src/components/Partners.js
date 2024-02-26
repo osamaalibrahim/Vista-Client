@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
 import "swiper/css/pagination";
-import '@fontsource-variable/Tajawal';
+import '@fontsource/tajawal';
 
 import { EffectCoverflow, Pagination, Autoplay } from "swiper/modules";
 import partner1 from "../assets/partner1.png";

@@ -31,7 +31,7 @@ import Testimonial from "./Testimonial";
 import React, { useState } from "react";
 import axios from "axios";
 import toast, { Toaster } from "react-hot-toast";
-import '@fontsource-variable/Tajawal';
+import '@fontsource/tajawal';
 
 function infoButton({ text, link, icon }) {
   return (

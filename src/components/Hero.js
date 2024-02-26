@@ -9,7 +9,7 @@ import {
 import hero_no_bg from "../assets/hero_no_bg.png";
 import { Link } from "react-scroll";
 import { motion } from "framer-motion";
-import '@fontsource-variable/Tajawal';
+import '@fontsource/tajawal';
 
 export default function Hero() {
   return (

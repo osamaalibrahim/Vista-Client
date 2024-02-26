@@ -15,7 +15,7 @@ import { AiOutlineDesktop } from "react-icons/ai";
 import Partners from "./Partners";
 import { useSpring, animated } from "react-spring";
 import { useInView } from "react-intersection-observer";
-import '@fontsource-variable/Tajawal';
+import '@fontsource/tajawal';
 
 function Number({ n }) {
   const { ref, inView } = useInView({triggerOnce:true}); // Set triggerOnce to true to trigger animation only once

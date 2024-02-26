@@ -15,7 +15,7 @@ import email_config from "../assets/email_config.png";
 import ui from "../assets/ui.png";
 import ux from "../assets/ux.png";
 import web_dev from "../assets/web_dev.png";
-import '@fontsource-variable/Tajawal';
+import '@fontsource/tajawal';
 
 export default function Features() {
   const featuresList = [
