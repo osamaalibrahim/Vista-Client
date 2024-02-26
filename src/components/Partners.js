@@ -5,6 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
 import "swiper/css/pagination";
+import '@fontsource-variable/tajawal';
 
 import { EffectCoverflow, Pagination, Autoplay } from "swiper/modules";
 import partner1 from "../assets/partner1.png";
@@ -37,7 +38,7 @@ function Partners() {
         textAlign={"center"}
         fontWeight={600}
         pt={16}
-        fontFamily={"Tajawal"}
+        fontFamily={"tajawal"}
       >
         شركاء النجاح
       </Text>

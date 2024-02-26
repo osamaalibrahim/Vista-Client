@@ -9,6 +9,7 @@ import {
 import hero_no_bg from "../assets/hero_no_bg.png";
 import { Link } from "react-scroll";
 import { motion } from "framer-motion";
+import '@fontsource-variable/tajawal';
 
 export default function Hero() {
   return (
@@ -37,7 +38,7 @@ export default function Hero() {
               fontWeight={900}
               lineHeight={1.2}
               fontSize={useBreakpointValue({ base: "3xl", md: "5xl" })}
-              fontFamily={"Tajawal"}
+              fontFamily={"tajawal"}
             >
               الحل التقني على مقربة من ناظريك
             </Text>
@@ -46,7 +47,7 @@ export default function Hero() {
               fontWeight={900}
               lineHeight={1.2}
               fontSize={useBreakpointValue({ base: "xl", md: "2xl" })}
-              fontFamily={"Tajawal"}
+              fontFamily={"tajawal"}
             >
               نعمل بشغف لتحويل طموحاتك إلى واقع
             </Text>

@@ -15,9 +15,10 @@ import { AiOutlineDesktop } from "react-icons/ai";
 import Partners from "./Partners";
 import { useSpring, animated } from "react-spring";
 import { useInView } from "react-intersection-observer";
+import '@fontsource-variable/tajawal';
 
 function Number({ n }) {
-  const { ref, inView } = useInView(); // Set triggerOnce to true to trigger animation only once
+  const { ref, inView } = useInView({triggerOnce:true}); // Set triggerOnce to true to trigger animation only once
 
   const { number } = useSpring({
     from: { number: 0 },
@@ -53,7 +54,7 @@ function StatsCard(props) {
           <StatLabel
             fontWeight={"medium"}
             fontSize={"2xl"}
-            fontFamily={"Tajawal"}
+            fontFamily={"tajawal"}
             isTruncated
           >
             {title}

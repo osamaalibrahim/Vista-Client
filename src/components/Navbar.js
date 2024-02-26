@@ -18,6 +18,7 @@ import vista_logo from "../assets/vista_logo.png";
 import ThemeToggler from "./ThemeToggler";
 import { Link } from "react-scroll";
 import { motion } from "framer-motion";
+import '@fontsource-variable/tajawal';
 
 const Navbar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -36,7 +37,7 @@ const Navbar = () => {
           bgGradient: "linear(to-r, blue.400, blue.500)",
         }}
         onClick={onClose}
-        fontFamily={"Tajawal"}
+        fontFamily={"tajawal"}
       >
         {text}
       </Button>

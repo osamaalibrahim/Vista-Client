@@ -15,6 +15,7 @@ import email_config from "../assets/email_config.png";
 import ui from "../assets/ui.png";
 import ux from "../assets/ux.png";
 import web_dev from "../assets/web_dev.png";
+import '@fontsource-variable/tajawal';
 
 export default function Features() {
   const featuresList = [
@@ -38,7 +39,7 @@ export default function Features() {
         fontWeight={600}
         pt={16}
         id="features"
-        fontFamily={"Tajawal"}
+        fontFamily={"tajawal"}
       >
         من خدماتنا
       </Text>

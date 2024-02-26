@@ -7,6 +7,7 @@ import {
   Stack,
   Image,
 } from "@chakra-ui/react";
+import '@fontsource-variable/tajawal';
 
 export default function Cards(props) {
   return (
@@ -55,11 +56,11 @@ export default function Cards(props) {
           />
         </Box>
         <Stack pt={10} align={"center"}>
-          <Heading fontSize={"2xl"} fontFamily={"Tajawal"} fontWeight={500}>
+          <Heading fontSize={"2xl"} fontFamily={"tajawal"} fontWeight={500}>
             {props.title}
           </Heading>
           <Stack direction={"row"} align={"center"}>
-            <Text fontWeight={800} fontSize={"xl"} fontFamily={"Tajawal"}>
+            <Text fontWeight={800} fontSize={"xl"} fontFamily={"tajawal"}>
               {props.arabic}
             </Text>
           </Stack>
