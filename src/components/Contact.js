@@ -41,7 +41,7 @@ function infoButton({ text, link, icon }) {
       variant="ghost"
       _hover={{ border: "2px solid #1C6FEB" }}
       rightIcon={icon}
-      onClick={() => window.open(link)}
+      onClick={() => window.open(link, "_blank")}
     >
       {text}
     </Button>
@@ -57,7 +57,7 @@ function sochalMediaButton({ label, link, icon }) {
       isRound={true}
       _hover={{ bg: "#0D74FF" }}
       icon={icon}
-      onClick={() => window.open(link)}
+      onClick={() => window.open(link, "_blank")}
     />
   );
 }
